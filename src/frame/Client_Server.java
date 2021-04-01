@@ -115,7 +115,7 @@ public class Client_Server extends javax.swing.JFrame {
             double x = Double.parseDouble(jTextField1.getText());
             double a = Double.parseDouble(jTextField2.getText());
             double b = Double.parseDouble(jTextField3.getText());
-            // Вызов удаленного метода на сервере через web-технологию SOAP
+           
             Answer answer = server.example(x, a, b);
             if (answer != null) {
                 

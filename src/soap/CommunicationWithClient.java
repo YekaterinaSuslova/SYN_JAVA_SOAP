@@ -10,7 +10,7 @@ import javax.jws.soap.SOAPBinding.Style;
 
 public class CommunicationWithClient implements ICommunicationWithClient {
 
-    // Решение квадратного уровнения
+  
     @Override
     public Answer example(double x, double a, double b) {
         double y = 0;
